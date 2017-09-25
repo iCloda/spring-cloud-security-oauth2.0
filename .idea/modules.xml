@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Restful-API/Auth/Auth.iml" filepath="$PROJECT_DIR$/Restful-API/Auth/Auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Service-Provider/Auth-Service/Auth-Service.iml" filepath="$PROJECT_DIR$/Service-Provider/Auth-Service/Auth-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Config-Server/Config-Server.iml" filepath="$PROJECT_DIR$/Config-Server/Config-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Restful-API/Demo/Demo.iml" filepath="$PROJECT_DIR$/Restful-API/Demo/Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repository-Extend/Druid-MySQL/Druid-MySQL.iml" filepath="$PROJECT_DIR$/Repository-Extend/Druid-MySQL/Druid-MySQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-Zuul/Gateway-Zuul.iml" filepath="$PROJECT_DIR$/Gateway-Zuul/Gateway-Zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repository-Extend/Repository-Extend.iml" filepath="$PROJECT_DIR$/Repository-Extend/Repository-Extend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Restful-API/Restful-API.iml" filepath="$PROJECT_DIR$/Restful-API/Restful-API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cmfun2.0.iml" filepath="$PROJECT_DIR$/cmfun2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+    </modules>
+  </component>
+</project>

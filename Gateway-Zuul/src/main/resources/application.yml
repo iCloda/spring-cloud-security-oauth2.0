@@ -1,0 +1,28 @@
+spring:
+  application:
+      name: gateway
+
+server:
+  port: 2222
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:1111/eureka/
+
+
+zuul:
+  sensitive-headers:
+  add-proxy-headers: true
+  add-host-header: true
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://127.0.0.1:3333/auth/oauth/token
+      user-authorization-uri: http://127.0.0.1:3333/auth/oauth/authorize
+      client-id: webapp
+      client-secret: webapp
+    resource:
+      user-info-uri: http://127.0.0.1:3333/auth/user
+      prefer-token-info: false

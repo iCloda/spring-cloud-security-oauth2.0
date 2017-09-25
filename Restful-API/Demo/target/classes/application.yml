@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: demo
+
+server:
+  port: 5555
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:1111/eureka/
+
+security:
+  oauth2:
+    resource:
+      id: demo
+      user-info-uri: http://127.0.0.1:2222/auth/user
+      prefer-token-info: false
+
+logging.level.org.springframework.security: DEBUG
+

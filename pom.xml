@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.orieange</groupId>
+	<artifactId>cmfun2.0</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>cmfun2.0</name>
+	<description>cmfun2.0</description>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<boot.version>1.5.7.RELEASE</boot.version>
+		<cloud.version>Dalston.SR3</cloud.version>
+		<java.version>1.8</java.version>
+		<druid.version>1.0.27</druid.version>
+	</properties>
+
+	<modules>
+		<module>Eureka-Server</module>
+		<module>Gateway-Zuul</module>
+		<module>Config-Server</module>
+		<module>Restful-API</module>
+		<module>Service-Provider</module>
+		<module>common</module>
+		<module>utils</module>
+		<module>Repository-Extend</module>
+	</modules>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

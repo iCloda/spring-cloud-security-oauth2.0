@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Auth" />
+        <module name="Auth-Service" />
+        <module name="common" />
+        <module name="Config-Server" />
+        <module name="Demo" />
+        <module name="Druid-MySQL" />
+        <module name="Eureka-Server" />
+        <module name="Gateway-Zuul" />
+        <module name="utils" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Auth" target="1.8" />
+      <module name="Auth-Service" target="1.8" />
+      <module name="AuthService" target="1.8" />
+      <module name="cmfun2.0" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="Config-Server" target="1.8" />
+      <module name="Demo" target="1.8" />
+      <module name="Druid-MySQL" target="1.8" />
+      <module name="Eureka-Server" target="1.8" />
+      <module name="Gateway-Zuul" target="1.8" />
+      <module name="Repository-Extend" target="1.8" />
+      <module name="Restful-API" target="1.8" />
+      <module name="Service-Provider" target="1.8" />
+      <module name="utils" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
